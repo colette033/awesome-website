@@ -58,7 +58,7 @@ nav{
     margin-left: 18rem;
     margin-right: 18rem;
     margin-top: 5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
 }
 
 .inside {
@@ -66,6 +66,7 @@ nav{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+    margin-right: 5px;
 }
 
 .btn {
@@ -73,9 +74,10 @@ nav{
     color: white;
     border: none;
     border-radius: 5px;
-    width: 95px;
-    height: 30px;
+    width: 110px;
+    height: 35px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -84,10 +86,10 @@ nav{
 }
 
 .second-part {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
     padding: 50px;
 }
 
@@ -100,7 +102,8 @@ nav{
 .images {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 80px;
+    margin-top: 15px;
 }
 
 .images .element {
@@ -120,4 +123,95 @@ nav{
     width: 150px; 
     height: auto; 
     text-align: center;
+    margin-top: 5px;
+}
+
+.third-part {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.third-part .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: 100;
+}
+
+.third-part .name {
+    font-size: 30px;
+    color: black;
+    align-self: flex-end;
+    margin-right: 200px;
+}
+
+.fourth-part {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.fourth-part .card{
+    display: flex;
+    flex-direction: row;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.fourth-part .card p {
+    color: white;
+    font-size: 18px;
+    align-self: center;
+}
+
+.fourth-part .card .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fourth-part .btn {
+    background-color:#3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    align-self: center;
+    margin-left: 40px;
+    border: 3px solid white;
+}
+
+.fourth-part .btn:hover {
+    background-color: white;
+    color:#3882F6;
+    transition: background-color 0.3s ease;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.bottom p {
+    color: #a8a8a9;
+    font-size: 18px;
+    align-self: center;
 }
