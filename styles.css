@@ -3,9 +3,10 @@
 }
 
 body {
-    display: flex;  
-    flex-direction: column;
     background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 a{
@@ -41,32 +42,28 @@ p {
 .header {
     display: flex;
     justify-content: flex-start;
-    margin-left: 18rem;
+    padding: 10px 0px 0px 250px;
 }
 
-nav{
+.menu{
     display: flex;
     align-items: center;
-    margin-left: 35rem;
-    gap: 40px;
+    margin-left: auto;
+    padding: 0px 250px 0px 0px;
+    gap: 20px;
 }
 
 .main-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 18rem;
-    margin-right: 18rem;
-    margin-top: 5rem;
-    padding-bottom: 5rem;
+    padding: 70px 250px 70px 250px;
 }
 
 .inside {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    margin-right: 5px;
+    text-align: left;
 }
 
 .btn {
@@ -103,13 +100,14 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 80px;
-    margin-top: 15px;
+    margin: auto;
 }
 
 .images .element {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .images .element .image {
@@ -130,16 +128,15 @@ nav{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 100px;
+    text-align: left;
+    padding: 100px 230px 100px 230px;
 }
 
 .third-part .quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: auto;
     font-weight: 100;
 }
 
@@ -162,10 +159,7 @@ nav{
 .fourth-part .card{
     display: flex;
     flex-direction: row;
-    padding-left:200px;
-    padding-right:200px;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding: 40px 80px 30px 80px;
     background-color: #3882F6;
     border-radius: 10px;
 }
@@ -206,8 +200,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .bottom p {
